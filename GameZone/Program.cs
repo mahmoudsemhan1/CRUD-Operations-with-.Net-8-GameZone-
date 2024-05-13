@@ -1,7 +1,15 @@
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("DefualtConnection")));
+
+builder.Services.AddScoped<IcategoriesService, categoriesService>();
+builder.Services.AddScoped<IDeviceServices, DeviceServices>();
+
 builder.Services.AddControllersWithViews();
+
 
 var app = builder.Build();
 
