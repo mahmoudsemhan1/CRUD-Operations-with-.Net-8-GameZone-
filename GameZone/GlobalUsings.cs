@@ -5,3 +5,7 @@ global using GameZone.ViewModels;
 global using Microsoft.AspNetCore.Mvc;
 global using Microsoft.AspNetCore.Mvc.Rendering;
 global using GameZone.Services;
+global using GameZone.Models;
+global using GameZone.Settings;
+
+

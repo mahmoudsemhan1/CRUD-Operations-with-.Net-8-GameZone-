@@ -7,6 +7,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefualtConnectio
 
 builder.Services.AddScoped<IcategoriesService, categoriesService>();
 builder.Services.AddScoped<IDeviceServices, DeviceServices>();
+builder.Services.AddScoped<IGamesService, GamesService>();
 
 builder.Services.AddControllersWithViews();
 
