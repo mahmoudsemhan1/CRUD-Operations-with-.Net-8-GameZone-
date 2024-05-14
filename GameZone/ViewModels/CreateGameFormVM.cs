@@ -19,7 +19,8 @@ namespace GameZone.ViewModels
 
         [MaxLength(2500)]
         public string Description { get; set; } = string.Empty;
-        [AllowedExtentiosAttributes(FilesSettings.AllowedExtentions)]
+        [AllowedExtentiosAttributes(FilesSettings.AllowedExtentions),
+            MaxFileSize(FilesSettings.MaxFileSizeInBytes)]
         public IFormFile Cover { get; set; } = default!;
 
     }
