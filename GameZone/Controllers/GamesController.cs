@@ -15,10 +15,20 @@ namespace GameZone.Controllers
             _gamesService = gamesService;
         }
 
+
         public IActionResult Index()
         {
-            return View();
+            var games = _gamesService.GetAll();
+            return View(games);
         }
+
+        public IActionResult Details(int id)
+        {
+            var game = _gamesService.GetById(id);
+            if (game == null) return NotFound();
+            return View(game);
+        }
+
 
         [HttpGet]
         public IActionResult Create()
@@ -26,17 +36,17 @@ namespace GameZone.Controllers
 
             CreateGameFormVM viewmodel = new()
             {
-                Categories= _categoriesService.GetCategories(),
-                Devices= _deviceServices.GetDevices(),
+                Categories = _categoriesService.GetCategories(),
+                Devices = _deviceServices.GetDevices(),
 
-            }; 
+            };
             return View(viewmodel);
         }
         [HttpPost]
         [ValidateAntiForgeryToken] // = > for more security 
         public async Task<IActionResult> Create(CreateGameFormVM model)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 model.Categories = _categoriesService.GetCategories();
                 model.Devices = _deviceServices.GetDevices();
@@ -48,5 +58,16 @@ namespace GameZone.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        //public async Task<IActionResult> Delete(int id)
+        // {
+        //     var game= _gamesService.GetById(id);
+        //     if (game == null) return View("NotFound");
+
+        //     await _gamesService.Delete(id);
+        //     return RedirectToAction(nameof(Index));
+        // }
+
+
     }
 }

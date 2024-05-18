@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\GameZone.bundle.scp.css"
     },
     {
+      "Id": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\assets\\Images\\games\\23ba5059-d66e-4f40-b4cc-8c089f25dba9.jpg",
+      "PackagePath": "staticwebassets\\assets\\Images\\games\\23ba5059-d66e-4f40-b4cc-8c089f25dba9.jpg"
+    },
+    {
+      "Id": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\assets\\Images\\games\\6986be00-53da-45e9-9462-1dea301653e4.jpg",
+      "PackagePath": "staticwebassets\\assets\\Images\\games\\6986be00-53da-45e9-9462-1dea301653e4.jpg"
+    },
+    {
       "Id": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\assets\\Images\\games\\a16129a2-76ae-42c8-9810-8c6803ed80e3",
       "PackagePath": "staticwebassets\\assets\\Images\\games"
     },
@@ -27,6 +35,14 @@
     {
       "Id": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\js\\Filesize-validator.js",
+      "PackagePath": "staticwebassets\\js\\Filesize-validator.js"
+    },
+    {
+      "Id": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\js\\game-form.js",
+      "PackagePath": "staticwebassets\\js\\game-form.js"
     },
     {
       "Id": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\js\\site.js",
@@ -279,6 +295,14 @@
     {
       "Id": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\lib\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\lib\\select2\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.min.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GameZone.Microsoft.AspNetCore.StaticWebAssets.props",
