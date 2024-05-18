@@ -39,13 +39,7 @@ namespace GameZone.Services
         public async Task Create(CreateGameFormVM model)
         {
 
-            var CoverName = $"{Guid.NewGuid()}{Path.GetExtension(model.Cover.FileName)}";
-
-            var path = Path.Combine(_imagesPath, CoverName);
-
-            //Save Cover in Server
-            using var stream = File.Create(path);
-            await model.Cover.CopyToAsync(stream);
+            var CoverName = await SaveCover(model.Cover);
 
             //  Save game in database
 
@@ -61,6 +55,83 @@ namespace GameZone.Services
             _context.SaveChanges();
         }
 
-     
+        public async Task<Game?> Update(EditGameFormVM model)
+        {
+            var game = _context.Games.
+                Include(g => g.Devices)
+                .SingleOrDefault(g => g.Id == model.Id);
+            if (game == null) return null;
+
+            var hasnewCover = model.Cover is not null; 
+            var OldCover = game.Cover; 
+            
+            game.Name = model.Name;
+            game.Description = model.Description;
+            game.CategoryId = model.CategoryId;
+            game.Devices=model.SelectedDevices.Select(d => new GameDevice{DeviceId=d }).ToList();
+
+            if (hasnewCover)
+            {
+                game.Cover = await SaveCover(model.Cover!);
+            }
+
+            var effectedRoews =_context.SaveChanges();
+
+            if (effectedRoews > 0)
+            {
+                if (hasnewCover)
+                {
+                    var cover=Path.Combine(_imagesPath,OldCover);
+                    File.Delete(cover);
+                }
+                return game;
+            }
+            else
+            {
+                var cover = Path.Combine(_imagesPath, game.Cover);
+                File.Delete(cover);
+                return null;
+            }
+
+        }
+
+        public bool Delete(int id)
+        {
+            var isdeleted = false;
+            var game = _context.Games.Find(id);
+            if (game == null)
+            {
+                return isdeleted;
+            }
+
+            _context.Remove(game);
+
+            var effectedRows = _context.SaveChanges();
+            if (effectedRows > 0)
+            {
+                isdeleted=true;
+                var cover = Path.Combine(_imagesPath, game.Cover);
+                File.Delete(cover);
+            }
+            return isdeleted;
+
+        }
+        private async Task<string> SaveCover(IFormFile cover)
+        {
+            var CoverName = $"{Guid.NewGuid()}{Path.GetExtension(cover.FileName)}";
+
+            var path = Path.Combine(_imagesPath, CoverName);
+
+            //Save Cover in Server
+            using var stream = File.Create(path);
+            await cover.CopyToAsync(stream);
+
+            return CoverName;
+
+        }
+
+    
     }
+
+  
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8xpX9mQJ4if88TTXCndV6Gakco0fBF2FCSatfWJ7bFQ=",
+  "Hash": "X4V9KxLO+ItTwxqGKunGPW2NmVJfO4ybWtxLDGdQwEA=",
   "Source": "GameZone",
   "BasePath": "_content/GameZone",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "F:\\MyProjects\\GameZone\\GameZone\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GameZone.bundle.scp.css"
     },
     {
-      "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\assets\\Images\\games\\23ba5059-d66e-4f40-b4cc-8c089f25dba9.jpg",
+      "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\assets\\Images\\games\\4c820710-1c8f-4f03-868a-0923b5e047a9.jpg",
       "SourceId": "GameZone",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\",
       "BasePath": "_content/GameZone",
-      "RelativePath": "assets/Images/games/23ba5059-d66e-4f40-b4cc-8c089f25dba9.jpg",
+      "RelativePath": "assets/Images/games/4c820710-1c8f-4f03-868a-0923b5e047a9.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\Images\\games\\23ba5059-d66e-4f40-b4cc-8c089f25dba9.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\Images\\games\\4c820710-1c8f-4f03-868a-0923b5e047a9.jpg"
     },
     {
-      "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\assets\\Images\\games\\6986be00-53da-45e9-9462-1dea301653e4.jpg",
+      "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\assets\\Images\\games\\5ca1081b-8ead-4a6c-ad76-b92644a455c2.jpg",
       "SourceId": "GameZone",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\",
       "BasePath": "_content/GameZone",
-      "RelativePath": "assets/Images/games/6986be00-53da-45e9-9462-1dea301653e4.jpg",
+      "RelativePath": "assets/Images/games/5ca1081b-8ead-4a6c-ad76-b92644a455c2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,7 +90,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\Images\\games\\6986be00-53da-45e9-9462-1dea301653e4.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\Images\\games\\5ca1081b-8ead-4a6c-ad76-b92644a455c2.jpg"
     },
     {
       "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\assets\\Images\\games\\a16129a2-76ae-42c8-9810-8c6803ed80e3",
@@ -112,12 +112,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\Images\\games\\a16129a2-76ae-42c8-9810-8c6803ed80e3"
     },
     {
-      "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\assets\\Images\\games\\default_cover.jpg",
+      "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\assets\\Images\\games\\a1e31a08-53d4-4985-ba94-ab0338944362.jpg",
       "SourceId": "GameZone",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\",
       "BasePath": "_content/GameZone",
-      "RelativePath": "assets/Images/games/default_cover.jpg",
+      "RelativePath": "assets/Images/games/a1e31a08-53d4-4985-ba94-ab0338944362.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\Images\\games\\default_cover.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\Images\\games\\a1e31a08-53d4-4985-ba94-ab0338944362.jpg"
     },
     {
-      "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\assets\\Images\\games\\e7abe02b-19e2-4aef-800f-8730accf32fe.jpg",
+      "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\assets\\Images\\games\\a675a238-a473-40a2-8d78-5e6f93f18e65.jpg",
       "SourceId": "GameZone",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\",
       "BasePath": "_content/GameZone",
-      "RelativePath": "assets/Images/games/e7abe02b-19e2-4aef-800f-8730accf32fe.jpg",
+      "RelativePath": "assets/Images/games/a675a238-a473-40a2-8d78-5e6f93f18e65.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +147,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\Images\\games\\e7abe02b-19e2-4aef-800f-8730accf32fe.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\Images\\games\\a675a238-a473-40a2-8d78-5e6f93f18e65.jpg"
+    },
+    {
+      "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\assets\\Images\\games\\d915c94f-9a17-4faa-8af2-7c3c57b870ac.jpg",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "assets/Images/games/d915c94f-9a17-4faa-8af2-7c3c57b870ac.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Images\\games\\d915c94f-9a17-4faa-8af2-7c3c57b870ac.jpg"
     },
     {
       "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\css\\bootstrap.min.css",
@@ -243,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\game-form.js"
+    },
+    {
+      "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\js\\Game-index.js",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "js/Game-index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Game-index.js"
     },
     {
       "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\js\\site.js",
@@ -1478,6 +1516,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\select2\\js\\select2.min.js"
+    },
+    {
+      "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.css",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "lib/sweetalert2/sweetalert2.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Identity": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.js",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\MyProjects\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "lib/sweetalert2/sweetalert2.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\sweetalert2\\sweetalert2.min.js"
     }
   ]
 }

@@ -59,15 +59,53 @@ namespace GameZone.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        //public async Task<IActionResult> Delete(int id)
-        // {
-        //     var game= _gamesService.GetById(id);
-        //     if (game == null) return View("NotFound");
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            var game=_gamesService.GetById(id);
+            if (game == null) return NotFound();
+            EditGameFormVM ViewModel = new()
+            {
+                Id = id,
+                Name = game.Name,
+                Description=game.Description,
+                CategoryId=game.CategoryId,
+                SelectedDevices=game.Devices.Select(d=>d.DeviceId).ToList(),
+                Categories=_categoriesService.GetCategories(),
+                Devices=_deviceServices.GetDevices(),
+                CurrentCover=game.Cover,
+            };
 
-        //     await _gamesService.Delete(id);
-        //     return RedirectToAction(nameof(Index));
-        // }
+            return View(ViewModel);
 
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken] // = > for more security 
+        public async Task<IActionResult> Edit(EditGameFormVM model)
+        {
+            if (!ModelState.IsValid)
+            {
+                model.Categories = _categoriesService.GetCategories();
+                model.Devices = _deviceServices.GetDevices();
 
+                return View(model);
+            }
+           
+            var game = await _gamesService.Update(model);
+            if(game == null) return BadRequest();
+
+            return RedirectToAction(nameof(Index));
+        }
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var isdeleted = _gamesService.Delete(id);
+
+            return isdeleted ? Ok() : BadRequest();
+
+        }
+      
     }
+  
+    
 }

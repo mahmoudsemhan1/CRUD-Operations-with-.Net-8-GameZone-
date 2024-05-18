@@ -16,8 +16,13 @@
                     @foreach (var gamedevice in Model.Devices)
                     {
                         <i class="@gamedevice.Device?.Icon me-3 fs-1 text-secondary"></i>
+                        
+                      
                     }
+                   
+                   
                 </div>
+               
             </div>
             <div class="col-md-4">
                 <img src="@($"{FilesSettings.Imagespath}/{Model.Cover}")" alt="@Model.Name" class="w-100 h-100 object-fit-cover" />
